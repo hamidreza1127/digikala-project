@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./fonts/fontawesome/css/all.css">
+    
+    <link rel="stylesheet" href="./cdn-swiper-css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Dg kala</title>
+  </head>
+  <body>
+    <div class="container-fluid cont-fix ">
+      <section class="header-nav">
+
+        <div class="row pt-3 ">
+          <div class="col-lg-1 col-12 d-flex justify-content-center"><a
+              href="#"><img class="px-3 py-2" src="./img/logo.svg"
+                alt=""></a></div>
+          <div class="col-md-5 col-6">
+            <div class="input-group ">
+              <input type="search" class="form-control
+                rounded-3 border-0 pb-md-3" id="search-form" placeholder="
+                جستجو"
+                aria-label="Search" aria-describedby="" />
+            </div></div>
+
+          <div class="col-md-6 col-6 d-flex justify-content-end ">
+
+            <a class="text-black fw-bold text-decoration-none login-btn
+              text-center
+              rounded-3 justify-content-center align-content-center px-md-3
+              py-md-2"
+              href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi
+                bi-box-arrow-in-left ms-1 mt-2 me-3 d-none d-sm-inline"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0
+                  0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0
+                  .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1
+                  0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0
+                  12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1
+                  11 3.5v2a.5.5 0 0 1-1 0v-2z"/>
+                  <path fill-rule="evenodd" d="M4.146
+                    8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1
+                    .708.708L5.707 7.5H14.5a.5.5 0 0 1 0
+                    1H5.707l2.147 2.146a.5.5 0 0
+                    1-.708.708l-3-3z"/>
+                  </svg>
+                  <span class="ps-1">ورود</span>
+                  <span class="d-none d-lg-inline"> | ثبت نام</span>
+                </a>
+                <i class="bi bi-cart px-3 mx-4 mt-2 icon-shop fw-bolder"></i>
+              </div>
+
+            </div>
+
+            <div class="row pt-4 position-sticky">
+              <div class=" col-xl-10 col-md-12 col-4">
+                <nav class="navbar navbar-expand-lg ">
+                  <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNavAltMarkup"
+                      aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                      id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <p class="nav-item nav-link text-dark fw-bolder "><i
+                            class="ps-2 fa-thin fa-bars d-none d-lg-inline"></i>دسته
+                          بندی کالاها</p>
+                        <a class="nav-item nav-link " href="#"> <i class="ps-2
+                            fa-thin fa-basket-shopping-simple"></i>سوپرمارکت</a>
+                        <a class="nav-item nav-link " href="#"><i class="ps-2
+                            fa-thin fa-fire-flame-curved"></i>پرفروش ترینها</a>
+                        <a class="nav-item nav-link " href="#"><i class="ps-2
+                            fa-thin fa-percent"></i>تخفیفها و پیشنهادها</a>
+                        <a class="nav-item nav-link " href="#"><i class="ps-2
+                            fa-thin fa-badge-percent"></i>شگفت انگیزها </a>
+                        <a class="nav-item nav-link " href="#">سوالی دارید؟</a>
+                        <a class="nav-item nav-link " href="#">فروشنده شوید</a>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-8 col-xl-2 col-md-12 d-flex justify-content-center
+                align-content-end justify-content-md-end">
+                <ul>
+                  <li class="list-unstyled"><a class="text-decoration-none
+                      text-nav " href="#"><i class="fa-thin fa-location-dot "></i>لطفا
+                      شهر خود را وارد کنید</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!------------------------------------------------------------------------- carousel-start ---------------------------------------------------------------->
+        <div id="carouselExampleIndicators" class="carousel slide"
+          data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!--------------------------------------------------------------- img-carousel-item --------------------------------------------------------->
+              <img src="./img/1.slider-0.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/1.slider-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/1.slider-2.gif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/1.slider-2.gif" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <section class="content">
+          <div class="container">
+            <!---------------------------------------- open row-1 Advertise =--------------------------------------------------->
+            <div class="row d-flex py-5 px-3">
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/1-1.png" style="width:4rem ;" alt="Card image cap">
+                <p>دیجی کالاجت</p></div>
+
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/2-1.png" style="width:4rem ;" alt="Card image cap">
+                <p>دیجی استایل</p></div>
+
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/3-1.png" style="width:4rem ;" alt="Card image cap">
+                <p>دیجی پی</p></div>
+
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/4-1.png" style="width:4rem ;" alt="Card image cap">
+                <p>دیجی کالا مهر</p></div>
+
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/5-1.png" style="width:4rem ;" alt="Card image cap">
+                <p>بازگشت به مدرسه</p></div>
+
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/6-1.png" style="width:4rem ;" alt="Card image cap">
+                <p>سورپرایز</p></div>
+
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/7-1.png" style="width:4rem ;" alt="Card image cap">
+                <p>تولد دیجی پلاس</p></div>
+
+              <div class="col text-center"> <img class="card-img-top"
+                  src="./img/8-1.jpg" style="width:4rem ;" alt="Card image cap">
+                <p>دیجی کالاجت</p></div>
+
+
+            </div>
+            <!----------------------------------------------------- close row-1 Advertise ---------------------------------->
+            <!------------------------------------------------------------- open red slider ------------------------------------>
+            <div class="bg-danger div-slider rounded-5 ">
+              <div class="row py-4">
+                <!-- <div class="col-2 ">
+                  <img class="ps-5 pt-3 pe-5" src="./img/amazing-typo.svg" alt="">
+                  <img class="px-4" src="./img/box.png" alt="">
+                  <p></p>
+                </div> -->
+                <!--=------------------------------------------------------------ red-carusel ---------------------------------->
+                <div class="col-12 ps-4">
+                  <div class="swiper">
+                    <div class="swiper-wrapper sw-red">
+                      <div class="swiper-slide bg-danger d-flex flex-column"
+                        style="width:200px">
+                        <img class=" px-5" src="./img/amazing-typo.svg"
+                          alt="">
+                        <img class="px-4" src="./img/box.png" alt="">
+                      </div>
+                      <div class="swiper-slide m-1 rounded-end" style="width:
+                        250px;">
+                        <a class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                              class="badge badge-pill badge-danger">20%</span><p
+                              class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide m-1">
+                        <a class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a></div>
+                      <div class="swiper-slide m-1">
+                        <a class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide m-1">
+                        <a class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide m-1">
+                        <a class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide m-1">
+                        <a class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide m-1"><a
+                          class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a></div>
+                      <div class="swiper-slide m-1"><a
+                          class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a></div>
+                      <div class="swiper-slide m-1"><a
+                          class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a></div>
+                      <div class="swiper-slide m-1"><a
+                          class="text-decoration-none text-dark" href="#">
+                          <img class=" img-fluid img-red-slider"
+                            src="./img/red-slid-2.jpg" alt="img">
+                          <div class="d-flex justify-content-between"><span
+                            class="badge badge-pill badge-danger">20%</span><p
+                              class="fw-bolder">120000</p></div>
+                          <div class="d-flex justify-content-end"><del
+                              class="text-muted">13000</del></div>
+                        </a></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!--------------------------------------------------------------------- green banner ----------------------------------->
+        <section class="banner pt-4">
+          <div class="container">
+            <div class="green-banner rounded-5">
+              <div class="row h-100 align-content-center">
+                <div class="col-12 col-lg-6 justify-content-center px-4">
+                  <img src="./img/green banner-1.png" alt="img">
+                  <img src="./img/text-green-in-banner-green.svg" alt="">
+                </div>
+
+                <div class="col-12 col-lg-6 align-content-center
+                  justify-content-between d-flex bennerleftside">
+                  <div class="col-lg-8 col-10 p-3 p-lg-0">
+                    <a class="rounded-circle position-relative ps-2" href="#"><img
+                        class="m-2 rounded-circle" style="width:58px;
+                        height:58px;"
+                        src="./img/img-rounded-in-green-banner.jpg" alt=""><span
+                        class="position-absolute top-100 start-100
+                        translate-middle rounded-5 text-white fw-bold bg-danger
+                        p-1 percent-green-banner ">24%</span></a>
+                    <a class="rounded-circle position-relative ps-2" href="#"><img
+                        class="m-2 rounded-circle" style="width:58px;
+                        height:58px;"
+                        src="./img/img-rounded-in-green-banner.jpg" alt=""><span
+                        class="position-absolute top-100 start-100
+                        translate-middle rounded-5 text-white fw-bold bg-danger
+                        p-1 percent-green-banner ">24%</span></a>
+                    <a class="rounded-circle position-relative ps-2" href="#"><img
+                        class="m-2 rounded-circle" style="width:58px;
+                        height:58px;"
+                        src="./img/img-rounded-in-green-banner.jpg" alt=""><span
+                        class="position-absolute top-100 start-100
+                        translate-middle rounded-5 text-white fw-bold bg-danger
+                        p-1 percent-green-banner ">24%</span></a>
+
+
+                  </div>
+                  <div class="arow col-2 col-lg-4 d-flex justify-content-end">
+                    <a class="arow-lin text-white text-decoration-none bg-white
+                      rounded-4 px-2 m-3" href="#"><span class="text-success
+                        text-center d-none d-lg-inline ">بیش از 80کالا</span><i
+                        class="fa-solid fa-arrow-left mx-2 text-success"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--=------------------------------------------------------------------ close banner green ---------------------------->
+        <!-------------------------------------------------------------------- open row-2 Advertise  ------------------------------>
+        <section class="advertis-2 py-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 col-lg-3 px-2 pb-3 pb-lg-0">
+                <a href="#"><img class="img-fluid rounded-4" src="./img/1-5.jpg"
+                    alt="img"></a>
+              </div>
+              <div class="col-6 col-lg-3 px-2 pb-3 pb-lg-0">
+                <a href="#"><img class="img-fluid rounded-4" src="./img/2-5.jpg"
+                    alt="img"></a>
+              </div>
+              <div class="col-6 col-lg-3 px-2 pb-3 pb-lg-0">
+                <a href="#"><img class="img-fluid rounded-4" src="./img/3-5.jpg"
+                    alt="img"></a>
+              </div>
+              <div class="col-6 col-lg-3 px-2 pb-3 pb-lg-0">
+                <a href="#"><img class="img-fluid rounded-4" src="./img/4-5.jpg"
+                    alt="img"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-------------------------------------------------------------------= close row-2 advertise ---------------------------->
+        <!---------------------------------------------------------------------- grouping dgkala-1 ------------------------------>
+        <section class="grouping py-4">
+          <div class="container">
+            <div class="row r-grouping flex-wrap">
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none "
+                  href="#"><img class="d-block" style="width:170px ;"
+                    src="./img/grouping-1.png" alt=""><span class=" text-dark">کالای
+                    دیجیتال</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none "
+                  href="#"><img class="d-block" style="width:170px ;"
+                    src="./img/grouping-2.png" alt=""><span class=" text-dark">خودرو
+                    ابزارو تجهیزات صنعتی</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none "
+                  href="#"><img class="d-block" style="width:170px ;"
+                    src="./img/grouping-3.png" alt=""><span class=" text-dark">مد
+                    وپوشاک</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none "
+                  href="#"><img class="d-block" style="width:170px ;"
+                    src="./img/grouping-4.png" alt=""><span class=" text-dark">کالاهای
+                    سوپرمارکتی</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none "
+                  href="#"><img class="d-block" style="width:170px ;"
+                    src="./img/grouping-5.png" alt=""><span class=" text-dark">اسباب
+                    بازی کودک و نوزاد</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none" href="#"><img
+                    class="d-block" style="width: 170px;"
+                    src="./img/grouping-6.png" alt=""><span class=" text-dark">محصولات
+                    بومی و محلی</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none" href="#"><img
+                    class="d-block" style="width: 170px;"
+                    src="./img/grouping-7.png" alt=""><span class="text-dark">زیبایی
+                    و سلامت</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none" href="#"><img
+                    class="d-block" style="width: 170px;"
+                    src="./img/grouping-8.png" alt=""><span class=" text-dark">خانه
+                    و آشپزخانه</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none" href="#"><img
+                    class="d-block" style="width: 170px;"
+                    src="./img/grouping-9.png" alt=""><span class=" text-dark">کتاب
+                    و لوازم و تحریر</span> </a></div>
+              <div class="col text-center d-flex justify-content-center"><a
+                  class="text-decoration-none" href="#"><img
+                    class="d-block" style="width: 170px;"
+                    src="./img/grouping-10.png" alt=""><span class="text-dark">ورزش
+                    و سفر</span> </a></div>
+            </div>
+          </div>
+        </section>
+        <!-------------------------------------------------------------------- open roow-3 advertise in box ---------------------------->
+        <div class="container">
+          <section class="py-5">
+
+            <div class="row">
+              <div class="col-12 pb-3 pb-lg-0 col-lg-6"><a href="#"><img
+                    class="rounded-4 img-fluid" src="./img/adv2-1.jpg"
+                    alt="img"></a></div>
+              <div class="col-12 col-lg-6"><a href="#"><img class="rounded-4
+                    img-fluid" src="./img/adv2-2.jpg" alt="img"></a></div>
+            </div>
+
+          </section>
+          <!--====================================================================== start slider-white-1 in page=====================================-->
+          <div class="row pt-3 text-center"><p class="h3">پیشنهاد دیجی کالا</p></div>
+          <section class="py-4">
+            <div class="slider-2 rounded-4">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/1.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/2.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/3.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/4.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/1.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/2.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/3.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/4.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/1.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/2.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/3.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/4.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/1.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/2.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/3.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/4.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/1.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/2.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                  <div class="swiper-slide col d-block text-center sw-slide "
+                    style="width:18rem ;"><div class="h-50 p-3 cord-inswiper"
+                      style="width:8rem ;"><img src="./img/swiper/3.jpg"
+                        class="img-fluid p-3 " alt=""><p class="">گوشی موبایل
+                      </p></div><div class="h-50 card-inswiper2 "
+                      style="width:8rem;"><img class="img-fluid p-4"
+                        src="./img/swiper/4.jpg" alt=""><p class="">کیف و کفش</p></div></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+
+            </div>
+          </section>
+          <!--------------------------------------------------------- close swiper change ----------------------------------------------->
+          <!--========================================================= start swiper3 (slider3) ====================================================-->
+          <section class="py-2 d-none d-md-inline">
+            <div class="slider-3 rounded-4">
+              <div class="text-center">
+                <p class="h4 "><i class="fa-light fa-stars text-warning ps-2"></i>محبوب
+                  ترین برندها </p>
+              </div>
+              <!--=========================================================== brand-slider ===========================================================-->
+              <div class="row slider-brand"></div>
+              <div class="swiper ">
+                <div class="swiper-wrapper ">
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/1.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/2.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/3.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/3.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/5.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/6.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/17.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/1.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/1.png" class="img-fluid"
+                        alt=""></a></div>
+                  <div class="swiper-slide sw-slide2 w-25 " style="width:rem ;"><a
+                      href="#"><img src="./img/swiper2/1.png" class="img-fluid"
+                        alt=""></a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+
+              </div>
+            </div>
+          </section>
+          <!--=================================================================== gif-2 =============================================================-->
+          <section class="py-5">
+
+            <div class="row">
+              <div class="col-12 pb-3 pb-lg-0 col-lg-6"><a href="#"><img
+                    class="rounded-4 img-fluid" src="./img/gif-1/1.jpg"
+                    alt="img"></a></div>
+              <div class="col-12 col-lg-6"><a href="#"><img class="rounded-4
+                    img-fluid" src="./img/gif-1/2.jpg" alt="img"></a></div>
+            </div>
+          </section>
+          <!--=========================================================== start row visit1 ========================================================-->
+          <div class="row d-flex flex-row row-visit">
+            <!------------------------------------------------------ right side -------------------------------->
+            <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+              <p class="h5 p-2">گوشی موبایل</p>
+              <p class="text-muted p-1">براساس بازدیدهای شما</p>
+              <div class="row-img-1 pb-2 d-flex boreder-1"> <!--------------row img-1-->
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom border-start"
+                    src="./img/box/5.jpg"
+                    alt=""></a>
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom"
+                    src="./img/box/6.jpg"
+                    alt=""></a>
+              </div>
+              <div class="row-img-2 d-flex border-1"><!--------------row img-2------------>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2 border-start"
+                    src="./img/box/7.jpg" alt="">
+
+                </a>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2"
+                    src="./img/box/8.jpg" alt="">
+
+                </a>
+              </div>
+              <div class="text-center pt-3 border-1">
+                <a href="#" class="text-decoration-none text-info">مشاهده ی
+                  همه <i class="fa-thin fa-angle-left"></i></a>
+              </div>
+            </div>
+            <!-------------------------------------------------------------- right-2 side ----------------------->
+            <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+              <p class="h5 p-2">گوشی موبایل</p>
+              <p class="text-muted p-1 ">براساس بازدیدهای شما</p>
+              <div class="row-img-1 pb-2 d-flex boreder-1"> <!--------------row img-1-->
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom border-start"
+                    src="./img/box/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg"
+                    alt=""></a>
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom"
+                    src="./img/box/2.jpg"
+                    alt=""></a>
+              </div>
+              <div class="row-img-2 d-flex border-1"><!--------------row img-2------------>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2 border-start"
+                    src="./img/box/3.jpg" alt="">
+
+                </a>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2"
+                    src="./img/box/4.jpg" alt="">
+
+                </a>
+              </div>
+              <div class="text-center pt-3 border-1">
+                <a href="#" class="text-decoration-none text-info">مشاهده ی
+                  همه <i class="fa-thin fa-angle-left"></i></a>
+              </div>
+            </div>
+            <!-------------------------------------------------------------- left side ----------------------->
+            <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+              <p class="h5 p-2">گوشی موبایل</p>
+              <p class="text-muted p-1 ">براساس بازدیدهای شما</p>
+              <div class="row-img-1 pb-2 d-flex boreder-1"> <!--------------row img-1-->
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom border-start"
+                    src="./img/box/5.jpg"
+                    alt=""></a>
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom"
+                    src="./img/box/6.jpg"
+                    alt=""></a>
+              </div>
+              <div class="row-img-2 d-flex border-1"><!--------------row img-2------------>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2 border-start"
+                    src="./img/box/7.jpg" alt="">
+
+                </a>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2"
+                    src="./img/box/8.jpg" alt="">
+
+                </a>
+              </div>
+              <div class="text-center pt-3 border-1">
+                <a href="#" class="text-decoration-none text-info">مشاهده ی
+                  همه <i class="fa-thin fa-angle-left"></i></a>
+              </div>
+            </div>
+            <!-------------------------------------------------------------- left-2 side ----------------------->
+            <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+              <p class="h5 p-2">گوشی موبایل</p>
+              <p class="text-muted p-1 ">براساس بازدیدهای شما</p>
+              <div class="row-img-1 pb-2 d-flex boreder-1"> <!--------------row img-1-->
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom border-start"
+                    src="./img/box/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg"
+                    alt=""></a>
+                <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                    border-bottom"
+                    src="./img/box/2.jpg"
+                    alt=""></a>
+              </div>
+              <div class="row-img-2 d-flex border-1"><!--------------row img-2------------>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2 border-start"
+                    src="./img/box/3.jpg" alt="">
+
+                </a>
+                <a href="#">
+                  <img class="img-in-box-2 img-fluid img-fluid p-2"
+                    src="./img/box/4.jpg" alt="">
+
+                </a>
+              </div>
+              <div class="text-center pt-3 border-1">
+                <a href="#" class="text-decoration-none text-info">مشاهده ی
+                  همه <i class="fa-thin fa-angle-left"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--==================================================================== start dg plus=========================================================--->
+          <section class="py-2">
+            <div class="dg-plus rounded-4">
+              <div class="row p-3">
+                <div class="col-12 col-lg-4 dg-plus-bg d-flex
+                  justify-content-center text-center align-content-center "><!-------------------- login-dg-plus------------------>
+                  <div class="p-2">
+                    <a href="#"> <img
+                        src="./img/dg-plus/digiplus-logo.svg"
+                        alt="img"></a>
+                    <p class="text-white ">خدمات ویژه برای اعضای دیجی پلاس</p>
+                    <a href="#" class="text-decoration-none btn text-white
+                      border-white">عضویت<i class="px-2 fa-light fa-arrow-left"></i></a>
+                  </div>
+
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="row bg-white m-1 rounded-end">
+                    <div class="col-4">
+                      <!--------------white-box-1--------------->
+                      <p><i class="view-all ms-1 fw-bolder fa-light
+                          fa-arrow-turn-up"></i>هدیه نقدی </p>
+                      <a href="#"><img src="./img/dg-plus/1.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a class="text-decoration-none roundet-4" href="#"><p
+                          class="gift">700تومان هدیه</p></a>
+                      <a href="#"><img src="./img/dg-plus/2.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a class="text-decoration-none roundet-4" href="#"><p
+                          class="gift">700تومان هدیه</p></a>
+
+                    </div>
+                    <div class="col-4 pt-4">
+                      <p></p>
+                      <a href="#"><img src="./img/dg-plus/3.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a class="text-decoration-none roundet-4" href="#"><p
+                          class="gift">700تومان هدیه</p></a>
+                      <a href="#"><img src="./img/dg-plus/4.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a class="text-decoration-none roundet-4" href="#"><p
+                          class="gift">700تومان هدیه</p></a>
+                    </div>
+                    <div class="col-4 text-center">
+                      <a class="text-decoration-none" href="#"><p
+                          class="view-all">مشاهده ی همه<i class="fw-bolder
+                            fa-thin fa-angle-left me-1"></i></p></a>
+                      <a href="#"><img src="./img/dg-plus/5.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a class="text-decoration-none roundet-4" href="#"><p
+                          class="gift">700تومان هدیه</p></a>
+                      <a href="#"><img src="./img/dg-plus/6.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a class="text-decoration-none roundet-4" href="#"><p
+                          class="gift">600تومان هدیه</p></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 ">
+                  <div class="row bg-white m-1 rounded-start">
+                    <!------------------ white-box-2-------->
+                    <div class="col-4">
+                      <p><i class="view-all ms-1 fa-brands fa-space-awesome"></i>ارسال
+                        فوری</p>
+                      <a href="#"><img src="./img/dg-plus/1.jpg"
+                          class="img-fluid pb-4" alt=""></a>
+
+                      <a href="#"><img src="./img/dg-plus/2.jpg"
+                          class="img-fluid" alt=""></a>
+
+
+                    </div>
+                    <div class="col-4 pt-4">
+
+                      <a href="#"><img src="./img/dg-plus/3.jpg"
+                          class="img-fluid py-3" alt=""></a>
+                      <a href="#"><p></p></a>
+                      <a href="#"><img src="./img/dg-plus/4.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a href="#"><p></p></a>
+                    </div>
+                    <div class="col-4 text-center">
+                      <a class="text-decoration-none" href="#"><p
+                          class="view-all">مشاهده ی همه<i class="fw-bolder
+                            fa-thin fa-angle-left me-1"></i></p></a>
+                      <a href="#"><img src="./img/dg-plus/5.jpg"
+                          class="img-fluid pb-4" alt=""></a>
+                      <a href="#"><p></p></a>
+                      <a href="#"><img src="./img/dg-plus/6.jpg"
+                          class="img-fluid" alt=""></a>
+                      <a href="#"><p></p></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--============================================================================= digi-club-blue =======================================================--->
+          <section class="digi-club">
+            <div class="row dg-club rounded-4">
+              <!--right part-->
+              <div class="col-12 col-lg-5">
+                <div class="h-100 dg-club-icon pt-2 px-5 justify-content-center
+                  justify-content-lg-between">
+                  <a href="#" class="">
+                    <img src="./img/digiclub-logo-white.svg" alt="img">
+                  </a></div>
+              </div>
+              <!--left part-->
+              <div class="col-12 col-lg-7 d-flex p-1">
+                <div class=" m-1 d-flex bg-white rounded-end">
+                  <a href="#" class="dg-club-icon text-decoration-none
+                    text-dark">
+                    <i class=" fw-bolder text-info fa-light fa-ring-diamond "></i>
+                    <p class="dg-club-icon">گردونه شانس</p>
+                  </a>
+                  <a href="#" class="">
+                    <img src="./img/dg-club-1.png" class="img-fluid" alt="">
+                  </a>
+                </div>
+                <div class="m-1 d-flex bg-white "><a href="#"
+                    class="dg-club-icon text-decoration-none text-dark">
+                    <i class=" fw-bolder text-info fa-light fa-ring-diamond py-4
+                      px-2"></i>
+                    <p class="dg-club-icon">ماموریتها </p>
+                  </a>
+                  <a href="#" class=" ">
+                    <img src="./img/dg-club-2.png" class="img-fluid" alt="">
+                  </a>
+                </div>
+                <div class="m-1 bg-white rounded-start">
+                  <div class="d-flex justify-content-center text-center
+                    align-content-center">
+                    <a href="#" class=" dg-club-icon text-decoration-none
+                      text-dark">
+                      <i class=" fw-bolder text-info fa-light fa-ring-diamond
+                        text-center"></i>
+                      <p class="dg-club-icon "> جایزه ها</p>
+                    </a>
+                    <a href="#">
+                      <img src="./img/dg-club-3.png" class="img-fluid " alt="">
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+          </section>
+          <!----------------------------------------   -  -  - --------close -digi-club- blue -------------------------------------------->
+          <!--=================================================== start visit-row-2 =====================================================-->
+          <section class="py-3">
+            <div class="row d-flex flex-row row-visit ">
+              <!------------- right side ------------>
+              <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+                <p class="h5 p-2"> آشنایی با فنون</p>
+                <p class="text-muted p-1">براساس بازدیدهای شما</p>
+                <div class="row-img-1 pb-2 d-flex boreder-1">
+                  <!--------------row img-1-->
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom border-start"
+                      src="./img/visit1.jpg"
+                      alt=""></a>
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom"
+                      src="./img/visit2.jpg"
+                      alt=""></a>
+                </div>
+                <div class="row-img-2 d-flex border-1"><!--------------row img-2------------>
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2
+                      border-start"
+                      src="./img/visit3.jpg" alt="">
+
+                  </a>
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2"
+                      src="./img/visit4.jpg" alt="">
+
+                  </a>
+                </div>
+                <div class="text-center pt-3 border-1">
+                  <a href="#" class="text-decoration-none text-info">مشاهده ی
+                    همه <i class="fa-thin fa-angle-left"></i></a>
+                </div>
+              </div>
+              <!------------------------------------------------------------- box2 in right side -------------------------------------->
+              <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+                <p class="h5 p-2"> کفش ورزشی</p>
+                <p class="text-muted p-1">براساس بازدیدهای شما</p>
+                <div class="row-img-1 pb-2 d-flex boreder-1">
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom border-start"
+                      src="./img/visit5.jpg"
+                      alt=""></a>
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom"
+                      src="./img/visit6.jpg"
+                      alt=""></a>
+                </div>
+                <div class="row-img-2 d-flex border-1">
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2
+                      border-start"
+                      src="./img/visit7.jpg" alt="">
+
+                  </a>
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2"
+                      src="./img/visit8.jpg" alt="">
+
+                  </a>
+                </div>
+                <div class="text-center pt-3 border-1">
+                  <a href="#" class="text-decoration-none text-info">مشاهده ی
+                    همه <i class="fa-thin fa-angle-left"></i></a>
+                </div>
+              </div>
+              <!--------------------------------------------------------------------- left side ------------------------------------------>
+              <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+                <p class="h5 p-2">آشنایی با فنون </p>
+                <p class="text-muted p-1">براساس بازدیدهای شما</p>
+                <div class="row-img-1 pb-2 d-flex boreder-1">
+                  <!--------------row img-1-->
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom border-start"
+                      src="./img/visit1.jpg"
+                      alt=""></a>
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom"
+                      src="./img/visit2.jpg"
+                      alt=""></a>
+                </div>
+                <div class="row-img-2 d-flex border-1"><!--------------row img-2------------>
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2
+                      border-start"
+                      src="./img/visit3.jpg" alt="">
+
+                  </a>
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2"
+                      src="./img/visit4.jpg" alt="">
+
+                  </a>
+                </div>
+                <div class="text-center pt-3 border-1">
+                  <a href="#" class="text-decoration-none text-info">مشاهده ی
+                    همه <i class="fa-thin fa-angle-left"></i></a>
+                </div>
+              </div>
+              <!------------------------------------------------------------------- box2 in left side------------------------------------------- -->
+              <div class="col-6 col-md-12 col-lg-3 right-side border-end ">
+                <p class="h5 p-2">کفش ورزشی </p>
+                <p class="text-muted p-1">براساس بازدیدهای شما</p>
+                <div class="row-img-1 pb-2 d-flex boreder-1">
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom border-start"
+                      src="./img/visit5.jpg"
+                      alt=""></a>
+                  <a href="#"> <img class="img-in-box-2 img-fluid p-2
+                      border-bottom"
+                      src="./img/visit6.jpg"
+                      alt=""></a>
+                </div>
+                <div class="row-img-2 d-flex border-1">
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2
+                      border-start"
+                      src="./img/visit7.jpg" alt="">
+
+                  </a>
+                  <a href="#">
+                    <img class="img-in-box-2 img-fluid img-fluid p-2"
+                      src="./img/visit8.jpg" alt="">
+
+                  </a>
+                </div>
+                <div class="text-center pt-3 border-1">
+                  <a href="#" class="text-decoration-none text-info">مشاهده ی
+                    همه <i class="fa-thin fa-angle-left"></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--================================================================== close boxes visit row2 ===============================================-->
+          <!--========================================================================== start ========================================================== -->
+          <!--===================================================================== start Bestsellers slider =================================================-->
+          <section class="slider-bestsellers py-4">
+            <div class="">
+              <div class="row ">
+                <div class="col-sm-7 d-flex justify-content-end">
+                  <p class="h4">پرفروش ترین کالاها</p>
+
+                </div>
+                <div class="col-5 d-flex justify-content-end ps-5">
+                  <a class="text-decoration-none text-info" href="#">مشاهده همه</a>
+                </div>
+              </div>
+              <div class="row px-5 row-in-BS1">
+                <div class="owl-carousel ">
+
+                  
+                   
+                    <div class="d-flex justify-content-start">
+                      <div class="col1 w-25">
+                      <div class="py-3">
+                        <a href="#">
+                      <img src="./img/bestseller1.jpg" alt="">
+
+                        </a>
+                      </div>
+                      <div class="py-3">
+                        <a href="#" class="">
+                      <img src="./img/bestseller2.jpg" alt="">
+
+                        </a>
+                      </div>
+                      <div class="py-3">
+                        <a href="#" class="">
+                      <img src="./img/bestseller3.jpg" alt="">
+
+                        </a>
+                      </div>
+                    </div>
+                  
+                 
+                  <div class="w-25 d-flex flex-column ">
+                    <a class="text-decoration-none  mt-4 pe-3" href="#"><p class="span1 display-3">1</p></a>
+                    <a class="text-decoration-none  mt-4 pe-3" href="#"><p class="span1 display-3">2</p></a>
+                    <a class="text-decoration-none  mt-4 pe-3" href="#"><p class="span1 display-3">3</p></a>
+                  </div>
+                  <div class="w-25 d-flex flex-column ">
+                    <a class="text-decoration-none mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">پوشک مای بیبی آبی سری مهربان با پوست سایز 4 بسته 34 عددی
+                    </p></a>
+                    <a class="text-decoration-none mt-1 mt-md-4 py-2 text-dark" href="#"><p class="span1">هدفون بی سیم مدل BTH</p></a>
+                    <a class="text-decoration-none mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">زعفران درجه یک مصطفوی - 4.608 گرم
+                    </p></a>
+                  </div>
+                </div>
+                    <div class="d-flex justify-content-start">
+                      <div class="col1 w-25">
+                      <div class="py-3">
+                        <a href="#">
+                      <img src="./img/bestseller4.jpg" alt="">
+
+                        </a>
+                      </div>
+                      <div class="py-3">
+                        <a href="#" class="">
+                      <img src="./img/bestseller5.jpg" alt="">
+
+                        </a>
+                      </div>
+                      <div class="py-3">
+                        <a href="#" class="">
+                      <img src="./img/bestseller6.jpg" alt="">
+
+                        </a>
+                      </div>
+                    </div>
+                  
+                 
+                  <div class="w-25 d-flex flex-column ">
+                    <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">1</p></a>
+                    <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">2</p></a>
+                    <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">3</p></a>
+                  </div>
+                  <div class="w-25 d-flex flex-column ">
+                    <a class="text-decoration-none mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">لامپ ال ای دی 12 وات لیتومکس مدل 001 پایه E27
+                    </p></a>
+                    <a class="text-decoration-none  mt-1 mt-md-4 py-2 text-dark" href="#"><p class="span1">زعفران سحرخیز - 4.608 گرم
+                    </p></a>
+                    <a class="text-decoration-none  mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">ماست پر چرب پاک</p></a>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                  <div class="col1 w-25">
+                  <div class="py-3">
+                    <a href="#">
+                  <img src="./img/bestseller1.jpg" alt="">
+
+                    </a>
+                  </div>
+                  <div class="py-3">
+                    <a href="#" class="">
+                  <img src="./img/bestseller2.jpg" alt="">
+
+                    </a>
+                  </div>
+                  <div class="py-3">
+                    <a href="#" class="">
+                  <img src="./img/bestseller3.jpg" alt="">
+
+                    </a>
+                  </div>
+                </div>
+              
+             
+              <div class="w-25 d-flex flex-column ">
+                <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">1</p></a>
+                <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">2</p></a>
+                <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">3</p></a>
+              </div>
+              <div class="w-25 d-flex flex-column ">
+                <a class="text-decoration-none  mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1 ">پوشک مای بیبی آبی سری مهربان با پوست سایز 4 بسته 34 عددی
+                </p></a>
+                <a class="text-decoration-none  mt-1 mt-md-4 py-2 text-dark" href="#"><p class="span1 ">هدفون بی سیم مدل BTH</p></a>
+                <a class="text-decoration-none  mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1 ">زعفران درجه یک مصطفوی - 4.608 گرم
+                </p></a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-start">
+              <div class="col1 w-25">
+              <div class="py-3">
+                <a href="#">
+              <img src="./img/bestseller4.jpg" alt="">
+
+                </a>
+              </div>
+              <div class="py-3">
+                <a href="#" class="">
+              <img src="./img/bestseller5.jpg" alt="">
+
+                </a>
+              </div>
+              <div class="py-3">
+                <a href="#" class="">
+              <img src="./img/bestseller6.jpg" alt="">
+
+                </a>
+              </div>
+            </div>
+          
+         
+          <div class="w-25 d-flex flex-column ">
+            <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">1</p></a>
+            <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">2</p></a>
+            <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">3</p></a>
+          </div>
+          <div class="w-25 d-flex flex-column ">
+            <a class="text-decoration-none  mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">لامپ ال ای دی 12 وات لیتومکس مدل 001 پایه E27
+            </p></a>
+            <a class="text-decoration-none  mt-1 mt-md-4 py-2 text-dark" href="#"><p class="span1">زعفران سحرخیز - 4.608 گرم
+            </p></a>
+            <a class="text-decoration-none  mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">ماست پر چرب پاک</p></a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-start">
+          <div class="col1 w-25">
+          <div class="py-3">
+            <a href="#">
+          <img src="./img/bestseller1.jpg" alt="">
+
+            </a>
+          </div>
+          <div class="py-3">
+            <a href="#" class="">
+          <img src="./img/bestseller2.jpg" alt="">
+
+            </a>
+          </div>
+          <div class="py-3">
+            <a href="#" class="">
+          <img src="./img/bestseller3.jpg" alt="">
+
+            </a>
+          </div>
+        </div>
+      
+     
+      <div class="w-25 d-flex flex-column ">
+        <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">1</p></a>
+        <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">2</p></a>
+        <a class="text-decoration-none mt-4 pe-3" href="#"><p class="span1 display-3">3</p></a>
+      </div>
+      <div class="w-25 d-flex flex-column ">
+        <a class="text-decoration-none  mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">پوشک مای بیبی آبی سری مهربان با پوست سایز 4 بسته 34 عددی
+        </p></a>
+        <a class="text-decoration-none  mt-1 mt-md-4 py-2 text-dark" href="#"><p class="span1">هدفون بی سیم مدل BTH</p></a>
+        <a class="text-decoration-none  mt-1 mt-md-4 py-2  text-dark" href="#"><p class="span1">زعفران درجه یک مصطفوی - 4.608 گرم
+        </p></a>
+      </div>
+    </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--===================================================================== start banner Beige ==================================================-->
+      <section class="py-4">
+        <div class="banner">
+          <img class="img-fluid rounded-4" src="./img/banner Beige.jpg"
+            alt="">
+        </div>
+      </section>
+      <!--==================================================================== start Selected Products ===============================================-->
+      <section class="py-4 border-1">
+        <div class="select-products rounded-4">
+          <!--============= row1 =========-->
+          <div class="row pt-4">
+            <div class="col-12 text-center">
+
+              <p class=" text-dark text-center h3">
+                منتخب محصولات تخفیف و حراج
+              </p>
+
+            </div>
+          </div>
+          <!--============ row2============-->
+          <div class="row py-5 m-2" style="width: fit-content;">
+            <!--============== col1-row1 ========-->
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0 " style="max-width:18rem;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="...">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">20%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col2-row1 ========-->
+
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0 " style="max-width:18rem;">
+                <img src="./img/select Products1.jpg" class="card-img-top
+                  rounded-3"
+                  alt="...">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">20%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col3-row1 ========-->
+
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0 " style="max-width:18rem;">
+                <img src="./img/select products2.jpg" class="card-img-top
+                  rounded-3"
+                  alt="...">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">20%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col4-row1 ========-->
+
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0 " style="max-width:18rem;">
+                <img src="./img/select products3.jpg" class="card-img-top
+                  rounded-3"
+                  alt="...">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">20%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col5-row1 ========-->
+
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0 " style="max-width:18rem;">
+                <img src="./img/select Products7.jpg" class="card-img-top
+                  rounded-3"
+                  alt="...">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">20%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col6-row1 ========-->
+
+            <div class="col-4 col-lg-2 border-bottom ">
+              <div class="card border-0" style="width:fit-content;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="..." style="block-size:fit-content;">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">20%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+          </div>
+          <div class="row m-2" style="width: fit-content;">
+            <!--============== col1-row2 ========-->
+
+            <div class="col-4 col-lg-2 border-bottom border-start ">
+              <div class="card border-0" style="width:fit-content;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="..." style="block-size:fit-content;">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">15%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col2-row2 ========-->
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0" style="width:fit-content;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="..." style="block-size:fit-content;">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">15%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col3-row2 ========-->
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0" style="width:fit-content;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="..." style="block-size:fit-content;">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">15%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col4-row2 ========-->
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0" style="width:fit-content;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="..." style="block-size:fit-content;">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">15%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col5-row2 ========-->
+            <div class="col-4 col-lg-2 border-bottom border-start">
+              <div class="card border-0" style="width:fit-content;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="..." style="block-size:fit-content;">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">15%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <!--============== col6-row2 ========-->
+            <div class="col-4 col-lg-2 border-bottom ">
+              <div class="card border-0" style="width:fit-content;">
+                <img src="./img/select Products.jpg" class="card-img-top
+                  rounded-3"
+                  alt="..." style="block-size:fit-content;">
+                <div class="card-body d-flex justify-content-between">
+                  <span
+                    class="badge badge-pill badge-danger span1">15%</span>
+                  <p class="card-text span1">160000تومان</p>
+                </div>
+                <div class="card-body d-flex justify-content-between">
+
+                  <p class="percent1 span1">40000تومان</p>
+                  <del class="text-muted">120000</del>
+                </div>
+              </div></div>
+            <div class="row m-2" style="width: fit-content;">
+              <!--============== col1-row3 ========-->
+              <div class="col-4 col-lg-2 border-bottom border-start">
+                <div class="card border-0" style="width:fit-content;">
+                  <img src="./img/select Products.jpg" class="card-img-top
+                    rounded-3"
+                    alt="..." style="block-size:fit-content;">
+                  <div class="card-body d-flex justify-content-between">
+                    <span
+                      class="badge badge-pill badge-danger span1">15%</span>
+                    <p class="card-text span1">160000تومان</p>
+                  </div>
+                  <div class="card-body d-flex justify-content-between">
+
+                    <p class="percent1 span1">40000تومان</p>
+                    <del class="text-muted">120000</del>
+                  </div>
+                </div></div>
+              <!--============== col2-row3 ========-->
+              <div class="col-4 col-lg-2 border-bottom border-start">
+                <div class="card border-0" style="width:fit-content;">
+                  <img src="./img/select Products.jpg" class="card-img-top
+                    rounded-3"
+                    alt="..." style="block-size:fit-content;">
+                  <div class="card-body d-flex justify-content-between">
+                    <span
+                      class="badge badge-pill badge-danger span1">15%</span>
+                    <p class="card-text span1">160000تومان</p>
+                  </div>
+                  <div class="card-body d-flex justify-content-between">
+
+                    <p class="percent1 span1">40000تومان</p>
+                    <del class="text-muted">120000</del>
+                  </div>
+                </div></div>
+              <!--============== col3-row3 ========-->
+              <div class="col-4 col-lg-2 border-bottom border-start">
+                <div class="card border-0" style="width:fit-content;">
+                  <img src="./img/select Products.jpg" class="card-img-top
+                    rounded-3"
+                    alt="..." style="block-size:fit-content;">
+                  <div class="card-body d-flex justify-content-between">
+                    <span
+                      class="badge badge-pill badge-danger span1">15%</span>
+                    <p class="card-text span1">160000تومان</p>
+                  </div>
+                  <div class="card-body d-flex justify-content-between">
+
+                    <p class="percent1 span1">40000تومان</p>
+                    <del class="text-muted">120000</del>
+                  </div>
+                </div></div>
+
+            </div>
+            <div class="row py-4">
+              <div class="col-12 text-center">
+
+                <a href="#" class="text-decoration-none text-info text-center
+                  h3">مشاهده ی
+                  بیشتر<i class="fa-thin fa-angle-left"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!--======================paragraph between bestseller & reedings====================================-->
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start">
+          <p> خواندنیها</p>
+        </div>
+        <div class="col-6 d-flex justify-content-end">
+          <a class="text-decoration-none text-info " href="#">مطالب بیشتر در
+            دیجی کالا مک</a>
+        </div>
+      </div>
+      <!--==========================================card in ridings=========================================================-->
+      <section>
+        <div class="row pb-5">
+          <div class="col-6 col-lg-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <div class="card mb-4 mb-lg-0" style="width:fit-content;
+                min-height:317px;">
+                <img src="./img/card-reade=ings1.jpg" class="card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <p class="card-text">مشخصات تبلت ردمی پد منتشر شد </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <div class="card mb-4 mb-lg-0" style="width:fit-content;
+                min-height:317px;">
+                <img src="./img/readings-card2.jpg" class="card-img-top"
+                  alt="...">
+                <div class="card-body ">
+                  <p class="card-text">قیمت پیکسل واچ احتمالا کمتر از اپل واچ
+                    وبیشتر از گلکسی واچ است </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <div class="card " style="width:fit-content; min-height:317px;">
+                <img src="./img/card-reading3.jpg" class="card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <p class="card-text">مشخصات تبلت ردمی پد منتشر شد </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <div class="card " style="width:fit-content; min-height:317px;">
+                <img src="./img/card-reading4.jpg" class="card-img-top"
+                  alt="...">
+                <div class="card-body">
+                  <p class="card-text">مشخصات تبلت ردمی پد منتشر شد </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./cdn-swiper-js/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/aaa6b9c8c0.js"
+      crossorigin="anonymous"></script>
+      <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script> 
+  </body>
+</html>
